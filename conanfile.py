@@ -74,13 +74,13 @@ class TestEnvPrj(ConanFile):
                 keep_path=False,
             )
             copy(self,
-                pattern="*/teststuff.exe",
+                pattern="*/stufftool.exe",
                 src=self.build_folder,
                 dst=os.path.join(self.package_folder, 'bin'),
                 keep_path=False,
             )
             copy(self,
-                pattern="*/teststuff.pdb",
+                pattern="*/stufftool.pdb",
                 src=self.build_folder,
                 dst=os.path.join(self.package_folder, 'bin'),
                 keep_path=False,
@@ -99,7 +99,7 @@ class TestEnvPrj(ConanFile):
                 keep_path=False,
             )
             copy(self,
-                pattern="*/teststuff",
+                pattern="*/stufftool",
                 src=self.build_folder,
                 dst=os.path.join(self.package_folder, 'bin'),
                 keep_path=False,
