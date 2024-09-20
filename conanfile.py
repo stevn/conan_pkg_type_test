@@ -113,3 +113,5 @@ class TestEnvPrj(ConanFile):
         self.cpp_info.components[COMPONENT_STUFF_TOOL].requires = [COMPONENT_STUFF_LIB]
 
         self.cpp_info.bindirs = ['bin']
+
+        # self.runenv_info.append_path("PATH", os.path.join(self.package_folder, 'bin'))
