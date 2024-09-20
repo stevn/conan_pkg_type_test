@@ -14,9 +14,11 @@ class TestEnvPrj(ConanFile):
 
     name = "stuff"
     version = "1.0.0"
+
     # package_type = "application"
-    # package_type = "library"
-    package_type = "unknown"
+    package_type = "library"
+    # package_type = "unknown"
+
     settings = "os", "compiler", "build_type", "arch"
 
     options = {"shared": [True, False]}
