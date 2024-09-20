@@ -26,3 +26,7 @@ ERROR: stuff/1.0.0 (test package): Error in test() method, line 28
         self.run("stufftool", env="conanrun")
         ConanException: Error 127 while executing
 ```
+
+Solved by adding run=True to the self.requires() call:
+
+<https://github.com/stevn/conan_pkg_type_test/commit/bd781f1aa229f1c66fd3900c85dd6db5392f2018>
