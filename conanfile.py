@@ -110,5 +110,6 @@ class TestEnvPrj(ConanFile):
         self.cpp_info.components[COMPONENT_STUFF_LIB].includedirs = ['include']
 
         self.cpp_info.components[COMPONENT_STUFF_TOOL].bindirs = ['bin']
+        self.cpp_info.components[COMPONENT_STUFF_TOOL].requires = [COMPONENT_STUFF_LIB]
 
         self.cpp_info.bindirs = ['bin']
