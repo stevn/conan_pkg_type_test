@@ -9,7 +9,7 @@ Conan build is broken because this package holds a library (static or shared) + 
 
 ```text
 $ git clone https://github.com/stevn/conan_pkg_type_test
-$ cd 
+$ cd conan_pkg_type_test
 $ conan create .
 ...
 [100%] Built target stufftestpkg
