@@ -1,0 +1,1 @@
+# conan_pkg_type_test
